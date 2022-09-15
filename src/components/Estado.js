@@ -14,12 +14,12 @@ export default class Estado extends Component{
         this.state = {
             contador:0,
         };
-        setInterval(() => {
+        /* setInterval(() => {
             // this.state.contado += 1   ASÍ NO SE ACTUALIZA EL ESTADO //
             this.setState({
                 contador:this.state.contador + 1
             });
-        }, 1000);
+        }, 1000); */  
     }
 
     render() {
