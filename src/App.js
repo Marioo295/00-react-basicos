@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import Componente from './components/Componente';
 import Propiedades from './components/Propiedades';
+import Estado from './components/Estado';
 import './App.css';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <a
+          <a  
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
@@ -35,6 +36,8 @@ function App() {
             funcion={num => num * num}
             componenteReact={<Componente msg="Soy un componente pasado como prop"/>}
           />
+          <hr></hr>
+          <Estado />
         </section>
       </header>
     </div>
