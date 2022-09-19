@@ -64,8 +64,8 @@ export default function HooksAjaxApis () {
             {pokemons.length === 0 ? (
                 <h3>Cargando...</h3>
             ) : (
-                pokemons.map((el) => (
-                <Pokemon key={el.id} name={el.name} avatar={el.avatar}/>
+                pokemons.map((el, idx) => (
+                <Pokemon key={idx} name={el.name} avatar={el.avatar}/>
                 ))
             )}
         </>
