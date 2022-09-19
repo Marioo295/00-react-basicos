@@ -4,11 +4,12 @@ import Componente from './components/Componente';
 import Propiedades from './components/Propiedades';
 import Estado from './components/Estado';
 import RenderizadoCondicional from './components/RenderizadoCondicional';
-import {EventosES6, EventosES7, MasSobreEventos} from './components/Eventos';
+import {EventosES6, EventosES7, MasSobreEventos} from './components/EventosES6ES7';
 import RenderizadoElementos from './components/RenderizadoElementos';
 import ComunicacionComponentes from './components/ComunicacionComponentes';
 import CicloVida from './components/CicloDeVida';
 import AjaxApis from './components/AjaxApis';
+import ContadorHooks from './components/ContadorHooks';
 import './App.css';
 
 function App() {
@@ -60,6 +61,8 @@ function App() {
           <CicloVida />
           <hr></hr>
           <AjaxApis />
+          <hr></hr>
+          <ContadorHooks />
         </section>
       </header>
     </div>

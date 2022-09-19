@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 export class EventosES6 extends Component {
-    //BINDEO OBLIGATORIO EN EL CONSTRUCTOR
+    //BINDEO OBLIGATORIO EN EL CONSTRUCTOR ES6
     constructor(props){
         super(props);
         this.state={
@@ -41,7 +41,7 @@ export class EventosES6 extends Component {
     }
 }
 
-//PROPERTIES INITIALIZER
+//PROPERTIES INITIALIZER ES7
 export class EventosES7 extends Component {
     //NO HACE FALTA CONSTRUCTOR
     state = {
