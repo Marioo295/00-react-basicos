@@ -9,9 +9,9 @@ import RenderizadoElementos from './components/RenderizadoElementos';
 import ComunicacionComponentes from './components/ComunicacionComponentes';
 import CicloVida from './components/CicloDeVida';
 import AjaxApis from './components/AjaxApis';
-import ContadorHooks from './components/ContadorHooks';
-import ScrollHooks from './components/ScrollHooks';
-import RelojHooks from './components/RelojHooks';
+import ContadorHooks from './components/HooksContador';
+import ScrollHooks from './components/HooksScroll';
+import RelojHooks from './components/HooksReloj';
 import './App.css';
 
 function App() {
