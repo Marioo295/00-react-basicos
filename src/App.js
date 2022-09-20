@@ -16,6 +16,7 @@ import HooksAjaxApis from './components/HooksAjaxApis';
 import HooksPersonalizados from './components/HooksPersonalizados';
 import Referencias from './components/ReferenciasPosibleMenu';
 import Formularios from './components/FormulariosCompleto';
+import Estilos from './components/Estilos';
 import './App.css';
 
 
@@ -82,6 +83,8 @@ function App() {
           <Referencias />
           <hr></hr>
           <Formularios />
+          <hr></hr>
+          <Estilos />
           <br></br>
           <br></br>
           <br></br>
