@@ -17,6 +17,7 @@ import HooksPersonalizados from './components/HooksPersonalizados';
 import Referencias from './components/ReferenciasPosibleMenu';
 import Formularios from './components/FormulariosCompleto';
 import Estilos from './components/Estilos';
+import ComponentesEstilizados from './components/ComponentesEstilizados';
 import './App.css';
 
 
@@ -85,6 +86,8 @@ function App() {
           <Formularios />
           <hr></hr>
           <Estilos />
+          <hr></hr>
+          <ComponentesEstilizados />
           <br></br>
           <br></br>
           <br></br>
